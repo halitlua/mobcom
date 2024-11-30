@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">LacedMnl</string>
-    <string name="intro_title"><font color="#6D9886">Step into your </font></string>
+    <string name="intro_title"><font color="#00000">Looking for some Heats?</font></string>
     <string name="intro_subtitle">A world of shoes</string>
-    <string name="intro_text">Browse the latest styles from top brands\nGet personalized recommendations\nEnjoy fast, free shipping</string>
-    <string name="intro_signin"><font color="#F6F6F6">Already have an account? </font> <font color="#6D9886">Sign In</font></string>
+    <string name="intro_text">Browse the latest styles from top brands\nCop heats at the lowest price\nEnjoy fast and free shipping</string>
+    <string name="intro_signin"><font color="00009">Already have an account? </font> <font color="#616161">Sign In</font></string>
 </resources>
