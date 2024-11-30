@@ -50,6 +50,14 @@ class MainActivity : BaseActivity() {
                 )
             )
         }
+        binding.orderBtn.setOnClickListener {
+            startActivity(
+                Intent(
+                    this@MainActivity,
+                    MyOrderActivity::class.java
+                )
+            )
+        }
     }
 
 

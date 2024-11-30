@@ -1,17 +1,20 @@
 package com.example.storedatalacedmnl.activity
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.storedatalacedmnl.Helper.ChangeNumberItemsListener
 import com.example.storedatalacedmnl.Helper.ManagmentCart
 import com.example.storedatalacedmnl.Adapter.CartAdapter
+import com.example.storedatalacedmnl.Model.ItemsModel
 import com.example.storedatalacedmnl.databinding.ActivityCartBinding
 
 class CartActivity : BaseActivity() {
     private lateinit var binding: ActivityCartBinding
     private lateinit var managmentCart: ManagmentCart
     private var tax: Double = 0.0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCartBinding.inflate(layoutInflater)
@@ -58,6 +61,20 @@ class CartActivity : BaseActivity() {
     }
 
     private fun setVariable() {
+        // Back button to finish the activity
         binding.backBtn.setOnClickListener { finish() }
+
+        // Checkout button to navigate to MyOrderActivity
+        binding.checkoutButton.setOnClickListener {
+            // Collect the cart items to be passed to MyOrderActivity
+            val cartItems = ArrayList<ItemsModel>(managmentCart.getListCart())
+
+            // Create an Intent to navigate to MyOrderActivity
+            val intent = Intent(this, MyOrderActivity::class.java).apply {
+                putParcelableArrayListExtra("cartItems", cartItems)
+            }
+            startActivity(intent)
+        }
+
     }
 }
