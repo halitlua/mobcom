@@ -9,14 +9,14 @@
     tools:context=".activity.ProfileActivity">
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
         android:id="@+id/profileImg"
+        android:layout_width="449dp"
+        android:layout_height="128dp"
         android:layout_marginTop="30dp"
-
+        android:src="@drawable/profilepice"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/titleName"
@@ -33,15 +33,15 @@
         app:layout_constraintTop_toBottomOf="@id/profileImg" />
 
     <TextView
+        android:id="@+id/titleUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/titleUsername"
-        android:text="username"
+        android:text="harley_mapagmahal"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@id/titleName"
         app:layout_constraintStart_toStartOf="@id/titleName"
-        app:layout_constraintTop_toBottomOf="@id/titleName"/>
+        app:layout_constraintTop_toBottomOf="@id/titleName" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -62,7 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            x
+
 
             <LinearLayout
 
