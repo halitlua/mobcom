@@ -15,6 +15,7 @@ import com.example.storedatalacedmnl.Adapter.SliderAdapter
 import com.example.storedatalacedmnl.Model.SliderModel
 import com.example.storedatalacedmnl.ViewModel.MainViewModel
 import com.example.storedatalacedmnl.databinding.ActivityMainBinding
+import com.example.storedatalacedmnl.activity.ProfileActivity
 
 class MainActivity : BaseActivity() {
     private val viewModel = MainViewModel()
@@ -40,7 +41,17 @@ class MainActivity : BaseActivity() {
                 )
             )
         }
+
+        binding.profileBtn.setOnClickListener {
+            startActivity(
+                Intent(
+                    this@MainActivity,
+                    ProfileActivity::class.java
+                )
+            )
+        }
     }
+
 
     private fun initBanner() {
         binding.progressBarBanner.visibility = View.VISIBLE
