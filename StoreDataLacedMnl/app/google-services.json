@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "826454783004",
+    "firebase_url": "https://storedatarealiem-default-rtdb.firebaseio.com",
+    "project_id": "storedatarealiem",
+    "storage_bucket": "storedatarealiem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826454783004:android:c2863f4a3133b20ae01bd9",
+        "android_client_info": {
+          "package_name": "com.example.storedatalacedmnl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYyzc72FaSWTxuG8rAqK6oDHAq6AF4knU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826454783004:android:fb346056e2c62a5ce01bd9",
+        "android_client_info": {
+          "package_name": "com.example.storedatarealtime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYyzc72FaSWTxuG8rAqK6oDHAq6AF4knU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826454783004:android:6c59c680edd587c9e01bd9",
+        "android_client_info": {
+          "package_name": "com.example.storelacedmnl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYyzc72FaSWTxuG8rAqK6oDHAq6AF4knU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
