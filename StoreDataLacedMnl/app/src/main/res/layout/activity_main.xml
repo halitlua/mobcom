@@ -42,7 +42,7 @@
                         android:id="@+id/textView5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Jammie"
+                        android:text="Cloyd"
                         android:textColor="@color/black"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -172,7 +172,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Recommendation"
+                    android:text="Trendy Sneakers"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -251,6 +251,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Explorer"
+                    android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="10sp" />
@@ -277,6 +278,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Cart"
+                    android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="10sp" />
@@ -302,12 +304,14 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Wishlist"
+                    android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="10sp" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/orderBtn"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.2"
@@ -329,10 +333,12 @@
                     android:text="My Order"
                     android:textAlignment="center"
                     android:textColor="@color/white"
-                    android:textSize="10sp" />
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/profileBtn"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.2"
@@ -352,6 +358,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Profile"
+                    android:textStyle="bold"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="10sp" />

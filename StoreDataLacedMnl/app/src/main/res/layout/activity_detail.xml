@@ -30,6 +30,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
+                    android:background="@drawable/black_bg"
                     app:srcCompat="@drawable/back" />
 
                 <ImageView
@@ -94,10 +95,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:text="$0"
+                    android:text="₱0"
+                    android:textColor="@color/black"
                     android:textSize="22sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -145,6 +146,7 @@
                 android:id="@+id/descriptionTxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:text="TextView"
                 android:layout_margin="16dp"/>
 
@@ -155,25 +157,25 @@
                 android:orientation="horizontal">
 
                 <androidx.appcompat.widget.AppCompatButton
-                    style="@android:style/Widget.Button"
                     android:id="@+id/addToCartBtn"
-                    android:textColor="@color/white"
-                    android:textSize="18sp"
+                    style="@android:style/Widget.Button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_margin="8dp"
+                    android:layout_weight="1"
                     android:background="@drawable/purple_bg"
-                    android:text="Buy Now" />
+                    android:text="Buy Now"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
 
                 <ImageButton
                     android:id="@+id/cartBtn"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:background="@drawable/grey_bg"
+                    android:background="@drawable/grey_bg2"
                     android:layout_margin="8dp"
                     app:srcCompat="@drawable/btn_2"
-                    app:tint="@color/black" />
+                    app:tint="@color/white" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
